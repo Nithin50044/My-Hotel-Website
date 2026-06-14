@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <title></title>
+    </head>
+        <body>
+          <section class="sub-header">
+             <nav> 
+                <a href="index.html"><img src="images_for_hotel/logo.jpg" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Dishes.html">Dishes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="review.html">Review</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+                <h1>Review Us</h1>
+                
+            </section>
+        <!-------------------------about as content------------------------>
+            <section class="review">
+    <h1>Customer Reviews</h1>
+    <p>Discover what our customers have to say about their experience with us. Read genuine reviews that highlight our exceptional service, delicious food, and memorable dining atmosphere.</p>
+    <div class="row">
+        <div class="review-col">
+            <img src="images_for_hotel/r1.jpg" alt="">
+            <div>
+                <div class="stars">★★★★★</div>
+                <p>"The food was absolutely delicious and the service was top-notch. Highly recommend!"</p>
+                <h3>Gajala CEO sonic solutions</h3>
+            </div>
+        </div>
+        <div class="review-col">
+            <img src="images_for_hotel/r2.jpg" alt="">
+            <div>
+                <div class="stars">★★★★<span class="half">★</span></div>
+                <p>"A wonderful dining experience with a cozy ambiance. The staff was friendly and attentive."</p>
+                <h3>Mcdonald Murthy</h3>
+            </div>
+        </div>
+        <div class="review-col">
+            <img src="images_for_hotel/r3.jpg" alt="">
+            <div>
+                <div class="stars">★★★★☆</div>
+                <p>"The flavors were incredible, and the presentation was beautiful. Will definitely be back!"</p>
+                <h3>Chicago Subba Rao</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="comment-box">
+                    <h6>Leave a review</h6>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your email" required>
+                        <textarea  rpows ="5" placeholder="Write your review here..." required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Submit</button>
+                    </form>
+                </div>
+<section class="footer">
+    <p>&copy; 2026 Your Hotel Name. All rights reserved.</p>
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</section>
+
+            <!------------Javascript for Toggle Menu------------>
+            
+               <script src="script.js"></script>
+             
+        </body>
+ 
+</html>    
